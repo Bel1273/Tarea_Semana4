@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="Mascota_Recycler_ActionView_S3-activity_main">
+
+    <item
+        android:id="@+id/menuActionSettings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menuActionFavorito"
+        android:icon="@drawable/start"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:title="Favoritos"
+        />
+</menu>
